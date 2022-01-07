@@ -1,0 +1,187 @@
+/************** ALL PAGES *************/
+
+*
+{
+    font-family: 'Quicksand', sans-serif, Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: #FFE8D6;
+    width: 100%;
+}
+
+h3
+{
+    margin-top: 5%;
+    margin-bottom: 6%;
+    text-align: center;
+    color: #666;
+}
+
+
+/********** FORMULAIRES - INPUT ALL PAGES **********/
+
+.box
+{
+    
+    border-radius: 20px;
+    padding: 30px 35px 30px 35px;
+    
+    margin: 60px auto;
+    width: 360px;
+    color: rgb(0, 0, 0);
+}
+
+h1.box-title 
+{
+    color: #a8a7a7;
+    
+    font-weight: 300;
+    padding: 15px 25px;
+    line-height: 30px;
+    font-size: 180%;
+    text-align: center;
+    margin: -27px -26px 26px;
+    margin-top: 10%;
+}
+
+.box-button 
+{
+    border-radius: 7px;
+    background: #DDBEA9;
+    text-align: center;
+    cursor: pointer;
+    font-size: 19px;
+    width: 350px;
+    height: 51px;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    border: 0;
+    outline:0;
+}
+
+.box-register
+{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 15%;
+}
+
+.box-register a
+{
+    text-decoration:none;
+    font-size: 100%;
+    color:#666;
+}
+
+.box-input 
+{
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    padding-left:10px;
+    border-radius: 5px;
+    width: 347px;
+    height: 50px;
+}
+
+.box-input:focus 
+{
+    outline: none;
+    border-color:#5c7186;
+}
+
+.mod
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: -65%;
+}
+
+.sub
+{
+    margin: 5%;
+}
+
+.sub1
+{
+    margin: 5%;
+}
+
+
+
+/***** Navigation *****/
+
+nav
+{
+    font-size: 150%;
+    font-style: bold;
+    text-align: center;
+    color: #666;
+    margin: 5%;
+}
+
+a
+{
+    color: rgb(129, 129, 129);
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    background-color: #ddbea9c2;
+    border: #ddbea9c2 solid 0px;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+
+
+/***** Informations *****/
+
+.infos
+{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.inf
+{
+    margin: 3%;
+}
+
+.inf1
+{
+    margin: 3%;
+    margin-left: 18%;
+}
+
+.bool
+{
+    text-align: center;
+    font-size: 150%;
+}
+
+
+/**** Footer ****/
+
+#link
+{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 6%;
+    margin-bottom: 8%;
+    color: #666;
+}
+
+#link > a
+{
+    text-decoration: none;
+    color: #636264;
+}
